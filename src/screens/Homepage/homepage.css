@@ -1,0 +1,14 @@
+.homepage_container {
+  height: 85vh;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.img_container {
+  max-width: 100%;
+}
+
+.homepic {
+  width: 1530px;
+  height: 600px;
+}

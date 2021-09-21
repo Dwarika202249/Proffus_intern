@@ -1,0 +1,46 @@
+.topic_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.topic_heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 43px;
+}
+
+#btn {
+  justify-content: flex-start;
+}
+
+.details {
+  width: 60%;
+}
+
+.topic_card {
+  display: flex;
+  width: 70%;
+  height: auto;
+  border: 1px solid gray;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 30px 30px;
+  margin-top: 50px;
+}
+
+.blur_image_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.blur_img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}

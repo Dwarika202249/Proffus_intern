@@ -1,0 +1,74 @@
+.faq_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq_heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 45px;
+  margin: 30px 0;
+}
+
+.collapisble_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  width: 70%;
+}
+
+.collapsible {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 1px solid gray;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-weight: 600;
+  margin: 30px 0;
+  padding: 40px 40px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: rgb(160, 221, 236);
+  color: black;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  width: 100%;
+}
+
+.collapse_para {
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+}
+
+.collapsible:after {
+  content: "\02795";
+  font-size: 30px;
+  font-weight: bold;
+  color: teal;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+}
